@@ -14,7 +14,7 @@ const BreadcrumbContainer = styled.nav`
   display: flex;
   gap:10px;
   padding: 10px;
-  margin-left: 10px;
+  margin-left: 15px;
 `;
 
 const BreadcrumbItemContainer = styled.div`

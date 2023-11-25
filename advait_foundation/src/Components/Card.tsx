@@ -57,7 +57,7 @@ const ImageComponent: React.FC<any> = ({ imageObject }) => {
 
 
 const Card: React.FC<CardProps> = ({ details }) => {
-  console.log(details, 'ksjhdh'); 
+  
   return (
     <CardContainer>
       {details &&

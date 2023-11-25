@@ -9,7 +9,6 @@ import Footer from './Home/Footer';
 import { useData } from './DataProvider';
 import Loader from '../Components/Loader';
 
-
 const Home = () => {
     const { data } = useData();
 
