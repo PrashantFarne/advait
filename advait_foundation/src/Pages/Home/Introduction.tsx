@@ -116,6 +116,10 @@ const ResponsiveImage = styled.img`
   }
 `;
 
+const SubTitle = styled.div`
+  font-weight: 600;
+`;
+
 interface DropdownMenuProps {
   isOpen: boolean;
 }
@@ -126,7 +130,7 @@ const ImageComponent: React.FC<any> = ({ imageObject }) => {
 
   return (
     <>
-      <ResponsiveImage src={imageUrl} alt="Your Alt Text" />
+      <ResponsiveImage src={imageUrl} alt="image" />
     </>
   );
 };
@@ -158,7 +162,6 @@ const Introduction: React.FC = () => {
       <Input type='text' id='fname' name='fname' value='' />
       <LoginButton>Login</LoginButton>
       </HeaderContainer>
-      
       <Breadcrumb items={breadcrumbItems} />
 
       <Heading>{data?.details?.details?.title}</Heading>
@@ -167,13 +170,11 @@ const Introduction: React.FC = () => {
       <ImageComponent imageObject={data?.details?.details?.thumbnail} />}
 
       <DescriptionBox>
-      <div>{data?.details?.details?.subtitle}</div>
+      <SubTitle>{data?.details?.details?.subtitle}</SubTitle>
       <Text>{data?.details?.details?.description}</Text>
       </DescriptionBox>
       </Container>
       <Socialurl>
-          <div>Share this series:</div>
-          <div>add url</div>
       </Socialurl>
     </>
   );

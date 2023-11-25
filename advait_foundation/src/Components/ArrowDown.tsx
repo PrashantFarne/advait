@@ -18,7 +18,6 @@ const ArrowIcon = styled.div`
 `;
 
 const TextContainer = styled.div`
-
   margin-top: 10px;
 `;
 
@@ -35,7 +34,6 @@ const ExpandableText: React.FC<ExpandableTextProps> = ({ initialText, expandedTe
       <ArrowContainer onClick={() => setExpanded(!isExpanded)}>
         <ArrowIcon style={{ transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)' }} />
       </ArrowContainer>
-
       <TextContainer>
         {isExpanded ? expandedText : initialText}
       </TextContainer>
@@ -44,5 +42,3 @@ const ExpandableText: React.FC<ExpandableTextProps> = ({ initialText, expandedTe
 };
 
 export default ExpandableText;
-
-  /* display: ${(props) => (props.show ? 'block' : 'none')}; */

@@ -18,7 +18,7 @@ const Box = styled.div`
 `;
 
 const ContainerBox = styled.div`
-  max-width:600px; //responsive
+  max-width:600px;
 `;
 
 const Title = styled.div`
@@ -62,6 +62,11 @@ const QAItem: React.FC<QAItemProps> = ({ question, answer }) => {
   );
 };
 
+interface ItemI {
+  answer: string
+  question: string
+}
+
 const FAQ: React.FC = () => {
   const { data } = useData();
 
@@ -72,7 +77,7 @@ const FAQ: React.FC = () => {
       <SubTitle>Can’t find the answer you’re looking for? Reach out to our support team.</SubTitle>
       </HeadingBox>
       <ContainerBox>
-        {data?.faq?.map((item:any, index:number) => (
+        {data?.faq?.map((item:ItemI, index:number) => (
           <QAItem key={index} question={item?.question} answer={item?.answer} />
         ))}
       </ContainerBox>

@@ -33,7 +33,6 @@ const DropdownMenu = styled.ul<DropdownMenuProps>`
 const DropdownItem = styled.li`
   padding: 10px;
   cursor: pointer;
-
   &:hover {
     background-color: #f1f1f1;
   }

@@ -5,13 +5,6 @@ const Container = styled.div`
   position: relative;
 `;
 
-const Button = styled.button`
-  background-color: #3498db;
-  color: #fff;
-  padding: 10px;
-  cursor: pointer;
-`;
-
 const MenuItemContainer = styled.div<{ isOpen: boolean }>`
   position: absolute;
   top: 0;
@@ -23,11 +16,10 @@ const MenuItemContainer = styled.div<{ isOpen: boolean }>`
 `;
 
 const MenuItem: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen] = useState(false);
 
   return (
     <Container>
-      <Button onClick={() => setIsOpen(!isOpen)}>Open Menu</Button>
       <MenuItemContainer isOpen={isOpen}>
         <ul>
           <li>Menu Item 1</li>
