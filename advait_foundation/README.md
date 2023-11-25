@@ -1,46 +1,21 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### How to get this repo code in local? (First Method) - 1 Step
+### Method One 
 
-## Available Scripts
+Go on this link https://github.com/PrashantFarne/advait and select "main" branch. Then at right side click on code and then click on "Download Zip". After download you can extract the file. 
 
-In the project directory, you can run:
+### Method Two (optional if you did Method one succefully)
+Go on this link https://github.com/PrashantFarne/advait and select "main" branch. Then at right side click on code and then click on "Https" and click on copy icon. 
+Now you have to open the terminal on your local machine and run a command git clone <paste a link that you copied>
+Then it will ask your credetials.
+Then all code is on your local machine.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### How to run this project? - 2 Step
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Open a "advait_foundation" folder and open terminal on that location and run command "code ."
+This will open a VS code automatically.
+Then in VS code there is terminal on that run command "npm i".(It will install all dependacies from package.json).
+After this put this command "npm start" this will start this project and it automatically run on "localhost:3000".
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you need any help, I am avialble 24X7. My contact: 7020805778
