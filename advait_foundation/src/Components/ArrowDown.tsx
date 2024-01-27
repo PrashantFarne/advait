@@ -5,7 +5,7 @@ const ArrowContainer = styled.div`
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: cente */
 `;
 
 const ArrowIcon = styled.div`
